@@ -1,5 +1,7 @@
 const baseUrl = process.env.BASE_URL || "http://localhost";
 const initjob = async () => {
+	console.log("Base url is: " + baseUrl);
+
 	console.log("Init Summary started at " + new Date());
 	try {
 		const res = await fetch(baseUrl + "/api/summarizer/init", {

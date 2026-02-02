@@ -1,6 +1,7 @@
 const baseUrl = process.env.BASE_URL || "http://localhost";
 
 const cleanJob = async () => {
+	console.log("Base url is: " + baseUrl);
 	console.log("Clean Summary started at " + new Date());
 	try {
 		const res = await fetch(baseUrl + "/api/summarizer/tally_cleaner", {
