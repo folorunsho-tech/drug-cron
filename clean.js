@@ -1,4 +1,4 @@
-const baseUrl = process.env.BASE_URL || "http://hosp-server.lan";
+const baseUrl = process.env.BASE_URL || "http://localhost:3000";
 
 const cleanJob = async () => {
 	console.log("Base url is: " + baseUrl);
