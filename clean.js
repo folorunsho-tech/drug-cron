@@ -1,4 +1,4 @@
-const baseUrl = process.env.BASE_URL || "http://localhost:3000";
+const baseUrl = process.env.BASE_URL || "http://localhost";
 
 const cleanJob = async () => {
 	console.log("Clean Summary started at " + new Date());
