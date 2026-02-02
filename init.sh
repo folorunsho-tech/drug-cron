@@ -1,1 +1,1 @@
-node init.js
+node ./init.js

@@ -1,1 +1,1 @@
-node clean.js
+node ./clean.js
